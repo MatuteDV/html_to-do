@@ -7,4 +7,5 @@ To-do en HTML con persistencia en localStorage
 - Descarga/clonar: git clone https://github.com/MatuteDV/html_to-do
 - Abrir Index.html
 
-Puede probarlo mediante githubPages en 
+Puede probarlo mediante githubPages en https://matutedv.github.io/html_to-do/
+
