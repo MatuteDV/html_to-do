@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    border: 1px solid tomato;
+    padding: 15px;
+    margin: 1% auto;
+}
+
+.container h2 {
+    background-color: salmon;
+    color: white;
+    padding: 15px 10px 10px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid salmon;
+    outline: none;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.container li {
+    vertical-align: middle;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.container ul li span.btnRemove {
+    padding: 5px;
+    background-color: salmon;
+    border: none;
+    font-size: 18px;
+    /* text-decoration-line: none !important; */
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: -7px;
+}
+
+.container ul li span.btnRemove:hover {
+    background-color: rgb(156, 0, 0);
+}
+
+.container li:nth-child(even) {
+    background-color: #e0dfdf;
+}
+
+.container li:hover {
+    background-color: rgba(82, 133, 72, 0.6);
+}
+
+.container li.done {
+    background-color: lightgreen;
+    /* text-decoration-line: line-through; */
+}
