@@ -9,3 +9,7 @@ To-do en HTML con persistencia en localStorage
 
 Puede probarlo mediante githubPages en https://matutedv.github.io/html_to-do/
 
+
+#### Colaboración: 
+  Gracias [solisjoaquin](https://github.com/solisjoaquin) por la mejora de CSS. 
+
